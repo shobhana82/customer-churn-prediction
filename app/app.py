@@ -402,6 +402,6 @@ with tab_about:
 
         **Built with:** Python, Pandas, Scikit-learn, XGBoost, Streamlit, Plotly.
 
-        **Source code:** [GitHub repository link here]
+        **Source code:** [https://github.com/shobhana82/customer-churn-prediction]
         """
     )
