@@ -10,7 +10,7 @@ engineering → model comparison → deployment.
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-**🔗 Live app:** _[add your Streamlit Cloud link here after deploying]_
+**🔗 Live app:** _[https://customer-churn-prediction-knj7t3tqxrqv3uqfgipiy3.streamlit.app/]_
 **📓 Dataset:** [IBM Telco Customer Churn](https://github.com/IBM/telco-customer-churn-on-icp4d)
 
 <!--
