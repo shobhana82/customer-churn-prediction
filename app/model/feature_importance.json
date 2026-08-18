@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "Contract_Month-to-month",
+    "importance": 0.14115058530755006
+  },
+  {
+    "feature": "tenure",
+    "importance": 0.1152299533562464
+  },
+  {
+    "feature": "TotalCharges",
+    "importance": 0.08654348450033586
+  },
+  {
+    "feature": "Contract_Two year",
+    "importance": 0.06531406073236368
+  },
+  {
+    "feature": "OnlineSecurity_No",
+    "importance": 0.06433149023335646
+  },
+  {
+    "feature": "AvgMonthlySpend",
+    "importance": 0.05498792387670168
+  },
+  {
+    "feature": "TechSupport_No",
+    "importance": 0.05414288749599389
+  },
+  {
+    "feature": "MonthlyCharges",
+    "importance": 0.0526488025636892
+  },
+  {
+    "feature": "InternetService_Fiber optic",
+    "importance": 0.04827001745383856
+  },
+  {
+    "feature": "PaymentMethod_Electronic check",
+    "importance": 0.03677305460251533
+  },
+  {
+    "feature": "Contract_One year",
+    "importance": 0.02126487039367115
+  },
+  {
+    "feature": "InternetService_DSL",
+    "importance": 0.018582079215746176
+  },
+  {
+    "feature": "OnlineBackup_No",
+    "importance": 0.01629230757318778
+  },
+  {
+    "feature": "OnlineSecurity_Yes",
+    "importance": 0.015365123539798834
+  },
+  {
+    "feature": "DeviceProtection_No",
+    "importance": 0.012974837717643076
+  }
+]
