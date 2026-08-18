@@ -3,6 +3,7 @@ app.py
 Streamlit web app for the Customer Churn Prediction project.
 Run locally with:  streamlit run app.py
 """
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import joblib
@@ -14,15 +15,24 @@ st.set_page_config(page_title="Customer Churn Predictor", page_icon="📉", layo
 
 # ----------------------------- Load model + metadata -----------------------------
 @st.cache_resource
+BASE_DIR = Path(__file__).resolve().parent
+
+@st.cache_resource
 def load_artifacts():
-    pipe = joblib.load("model/churn_pipeline.joblib")
-    with open("model/results.json") as f:
+    model_dir = BASE_DIR / "model"
+
+    pipe = joblib.load(model_dir / "churn_pipeline.joblib")
+
+    with open(model_dir / "results.json") as f:
         results = json.load(f)
-    with open("model/feature_importance.json") as f:
+
+    with open(model_dir / "feature_importance.json") as f:
         importances = json.load(f)
+
     return pipe, results, importances
 
 pipe, results, importances = load_artifacts()
+
 best_model_name = results["best_model"]
 best_metrics = results["results"][best_model_name]
 
